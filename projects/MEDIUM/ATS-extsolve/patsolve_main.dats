@@ -39,8 +39,8 @@ implement main0 (argc, argv) =
     
     val arglst = patsolve_cmdline (argc, argv)
     
-    // HX: skipping argv[0]
-    val- ~list_vt_cons(arg, arglst) = arglst
+    // skip first arg
+    val- ~list_vt_cons(_, arglst) = arglst
     
     val () = patsolve_commarglst (arglst)
   }
