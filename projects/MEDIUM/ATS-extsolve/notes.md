@@ -6,6 +6,12 @@ Directory structure?
 * PARSING parses from json 
 
 
+See also my notes for https://github.com/marklemay/ATS-Postiats-contrib/tree/master/projects/MEDIUM/ATS-extsolve-z3
+
+
+what code solves the linear constraints?
+
+
 I think the 
 ```
 local
@@ -14,4 +20,4 @@ in
   // nothing
 end
 ```
-pattern includes the raw file in a seperately scoped local file
+pattern includes the raw file text in a seperate local scope
