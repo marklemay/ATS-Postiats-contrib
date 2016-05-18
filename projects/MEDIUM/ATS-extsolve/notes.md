@@ -7,11 +7,11 @@ Directory structure?
 
 
 I think the 
-{{{
+```
 local
   #include "./SOLVING/patsolve_z3_solving_ctx.dats"
 in
   // nothing
 end
-}}}
+```
 pattern includes the raw file in a seperately scoped local file
